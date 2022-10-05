@@ -1,10 +1,10 @@
 package com.example.Hibernate.Advanced1.service;
 
-import com.example.Hibernate.Advanced1.repository.ProductRepository;
+import com.example.Hibernate.Advanced1.entities.Category;
 import com.example.Hibernate.Advanced1.entities.Product;
 import com.example.Hibernate.Advanced1.entities.ProductDescription;
 import com.example.Hibernate.Advanced1.entities.ProductParameter;
-import com.example.Hibernate.Advanced1.entities.Category;
+import com.example.Hibernate.Advanced1.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +15,7 @@ import java.util.Arrays;
 @Service
 public class ProductServiceImpl implements ProductService {
 
-    private ProductRepository productRepository;
+    private final ProductRepository productRepository;
 
     @Autowired
     public ProductServiceImpl(ProductRepository productRepository) {

@@ -1,9 +1,13 @@
 package com.example.Hibernate.Advanced1.entities;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.List;
 
+
+@Data
 @Entity
 public class Product {
 
