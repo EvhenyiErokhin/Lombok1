@@ -1,7 +1,7 @@
-package com.example.Hibernate.Advanced1.controller;
+package com.example.Lombok.controller;
 
-import com.example.Hibernate.Advanced1.entities.Product;
-import com.example.Hibernate.Advanced1.service.ProductServiceImpl;
+import com.example.Lombok.entities.Product;
+import com.example.Lombok.service.ProductServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,4 +1,4 @@
-package com.example.Hibernate.Advanced1;
+package com.example.Lombok;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

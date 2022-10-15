@@ -1,10 +1,10 @@
-package com.example.Hibernate.Advanced1.service;
+package com.example.Lombok.service;
 
-import com.example.Hibernate.Advanced1.entities.Category;
-import com.example.Hibernate.Advanced1.entities.Product;
-import com.example.Hibernate.Advanced1.entities.ProductDescription;
-import com.example.Hibernate.Advanced1.entities.ProductParameter;
-import com.example.Hibernate.Advanced1.repository.ProductRepository;
+import com.example.Lombok.entities.Category;
+import com.example.Lombok.entities.Product;
+import com.example.Lombok.entities.ProductDescription;
+import com.example.Lombok.entities.ProductParameter;
+import com.example.Lombok.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

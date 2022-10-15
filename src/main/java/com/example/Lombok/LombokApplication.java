@@ -1,13 +1,13 @@
-package com.example.Hibernate.Advanced1;
+package com.example.Lombok;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HibernateAdvanced1Application {
+public class LombokApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HibernateAdvanced1Application.class, args);
+		SpringApplication.run(LombokApplication.class, args);
 	}
 
 }
